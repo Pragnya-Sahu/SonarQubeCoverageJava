@@ -7,5 +7,6 @@ on:
     branches: [ "master" ]
 
 jobs:
+
   build:
     uses: ./.github/workflows/maven-reusable.yml
